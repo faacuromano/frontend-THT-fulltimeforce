@@ -21,7 +21,7 @@ const Commit = (props: CommitProps) => {
     return data2date;
   };
   return (
-    <div className="w-3/5 shadow-2xl white mx-auto mt-3 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+    <div className="shadow-2xl white mx-auto mt-3 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
       <h1 className="text-white text-2xl font-bold mb-4 align-middle text-center">
         {props.message}
       </h1>
