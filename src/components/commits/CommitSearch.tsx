@@ -41,12 +41,20 @@ const CommitSearch: React.FC<CommitSearchProps> = ({ onSearch }) => {
           onChange={handleRepositoryChange}
           className="w-full p-2 rounded-md border border-gray-300"
         />
-        <button
-          onClick={handleSearch}
-          className="p-2 mt-4 bg-gradient-to-br from-purple-600 to-blue-500 text-white rounded-lg focus:ring-4 focus:ring-blue-300 focus:outline-none font-roboto"
-        >
-          Enviar
-        </button>
+        <div>
+          <button
+            onClick={handleSearch}
+            className="p-2 m-1 mt-4 bg-gradient-to-br from-purple-600 to-blue-500 text-white rounded-lg focus:ring-4 focus:ring-blue-300 focus:outline-none font-roboto"
+          >
+            Send
+          </button>
+          <button
+            onClick={handleSearch}
+            className="p-2 m-1 mt-4 bg-gradient-to-br from-purple-600 to-blue-500 text-white rounded-lg focus:ring-4 focus:ring-blue-300 focus:outline-none font-roboto"
+          >
+            Update
+          </button>
+        </div>
       </div>
     </div>
   );
