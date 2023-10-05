@@ -1,13 +1,62 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+<a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt="React Logo" width="130" height="130" />
+</a>
 
-Currently, two official plugins are available:
+<a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" alt="TypeScript Logo" width="130" height="130" />
+</a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<a href="https://vitejs.dev/" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin: 10px;">
+  <img src="https://vitejs.dev/logo.svg" alt="Vite Logo" width="130" height="130" />
+</a>
 
-## Expanding the ESLint configuration
+  </a>  <h1 align="center"> React + TypeScript + Vite</h1>
+</p>
+
+
+
+## 📑 Description 
+
+The goal of this test will be to create an app that shows git commit history on the same public
+repository you are working on. You need to do well-stated and defined commits while working on this
+test and regularly push them up. No need to make the app able to access a private repository.
+
+
+<h1>💻 How to run</h1> 
+
+## 1. Download
+
+```bash
+#clone repo
+$ git clone https://github.com/faacuromano/frontend-THT-fulltimeforce.git
+
+#change to repo directory
+$ cd .\frontend-THT-fulltimeforce\
+```
+
+## 2. Installation
+
+```bash
+#install packages
+$ npm install
+```
+
+## 3. Running the app
+
+```bash
+# development
+$ npm run dev (⭐)
+```
+
+## License
+
+Nest is [MIT licensed](LICENSE).
+
+
+
+## <h1>Expanding the ESLint configuration</h1>
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
