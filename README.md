@@ -50,12 +50,6 @@ $ npm install
 $ npm run dev (⭐)
 ```
 
-## License
-
-Nest is [MIT licensed](LICENSE).
-
-
-
 ## <h1>Expanding the ESLint configuration</h1>
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
